@@ -8,6 +8,12 @@ F.CSM311 — Lab15-ийн starter код. Maven + JUnit5 жижиг проект
 mvn -B clean verify
 ```
 
+Coverage report:
+
+```text
+target/site/jacoco/index.html
+```
+
 ## Бүтэц
 
 ```
@@ -21,11 +27,13 @@ src/
 
 ## Lab15 даалгаврын товч жагсаалт
 
-1. CI workflow бичих (`.github/workflows/ci.yml`)
-2. `StringUtils.reverse()` нэмэх + тест + PR
-3. Matrix build (Java 17 + 21)
-4. Branch protection rule (main)
-5. JaCoCo coverage gate (≥ 70%)
-6. Peer review (хосоор)
+1. CI workflow бичих (`.github/workflows/ci.yml`) - done
+2. `StringUtils.reverse()` нэмэх + тест + PR - code/test done, PR required on GitHub
+3. Matrix build (Java 17 + 21) - done
+4. Branch protection rule (main) - configure in GitHub settings
+5. JaCoCo coverage gate (>= 70%) - done
+6. Peer review (хосоор) - required on GitHub PR
 
-Дэлгэрэнгүйг `Lab15-Git-Workflow-and-CICD.md` файлд харна уу.
+Дэлгэрэнгүйг `Lab15-Git-Workflow-and-CICD (1).md` файлд харна уу.
+
+Тайлангийн screenshot checklist-ийг `docs/lab15-report-checklist.md`, PDF болгох бэлэн тайлангийн нооргийг `docs/lab15-report.md` файлд бэлдсэн.
